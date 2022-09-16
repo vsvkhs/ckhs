@@ -1,0 +1,43 @@
+使用路由器屏蔽iOS更新
+以Padavan系列路由器为例：
+1.登录Padavan固件后台，一般为“192.168.123.1”
+
+2.打开高级设置-内部网络（LAN）-DHCP服务器
+
+3.往下翻找到“自定义配置文件 "hosts"”
+
+4.老毛子的DHCP里有HOST管理，在里面添加如下信息
+----------------------------------------------
+#IOS OTA#
+127.0.0.1 mesu.apple.com
+127.0.0.1 appldnld.apple.com
+127.0.0.1 xp.apple.com
+127.0.0.1 gdmf.apple.com
+127.0.0.1 ipsw.me
+127.0.0.1 updates-http.cdn-apple.com
+----------------------------------------------
+
+以openwrt系列路由器为例：
+1.进入ssh界面，编辑host文件：vi /etc/hosts
+
+2.添加以下记录，将苹果更新版本的ip地址全部指向本地
+----------------------------------------------
+#IOS OTA#
+127.0.0.1 mesu.apple.com
+127.0.0.1 appldnld.apple.com
+127.0.0.1 xp.apple.com
+127.0.0.1 gdmf.apple.com
+127.0.0.1 ipsw.me
+127.0.0.1 updates-http.cdn-apple.com
+----------------------------------------------
+常用的广告过滤规则：厦门最优DNS：218.85.157.99
+https://anti-ad.net/easylist.txt
+https://easylist-downloads.adblockplus.org/easylistchina.txt    能去爱奇艺app广告20220831
+http://sub.adtchrome.com/adt-chinalist-easylist.txt
+---------------------------------------------------
+您可以通过以下地址访问您的 AdGuard Home 网页管理界面：
+http://127.0.0.1:8088
+http://192.168.1.106:8088
+http://192.168.36.1:8088
+http://[::1]:8088
+http://[fd44:6c27:cf93::1]:8088
