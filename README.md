@@ -3,6 +3,10 @@
 https://anti-ad.net/easylist.txt
 
 https://github.com/cjx82630/cjxlist
+
+15.1.1<15.5<15.4.1<15.2.1<15.6.1<15.4<15.3<15.7<15.3.1<15.6<15.2<16
+
+【ios 15.7 续航测试，电流功耗检测法】 https://www.bilibili.com/video/BV1hP4y1d7zL?share_source=copy_web&vd_source=d5b444e2b709436b8c2e227df7cf4435
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
