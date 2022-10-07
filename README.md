@@ -1,5 +1,7 @@
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+https://github.com/IvanSolis1989/OpenWrt-DIY
+
 https://anti-ad.net/easylist.txt
 
 https://github.com/cjx82630/cjxlist
