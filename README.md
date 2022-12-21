@@ -4,6 +4,10 @@ https://github.com/IvanSolis1989/OpenWrt-DIY
 
 https://anti-ad.net/easylist.txt
 
+http://sub.adtchrome.com/adt-chinalist-easylist.txt
+
+https://easylist-downloads.adblockplus.org/easylistchina.txt
+
 https://github.com/cjx82630/cjxlist
 
 15.1.1<15.5<15.4.1<15.2.1<15.6.1<15.4<15.3<15.7<15.3.1<15.6<15.2<16
